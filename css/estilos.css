@@ -1,0 +1,14 @@
+.banner{
+    background-image: linear-gradient(to right, #f15d2c, black);
+}
+
+.banner__boton{
+    color: #ffffff;
+    background-color: #f15d2c;
+    box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 40%);
+    padding: 17px 36px 18px;
+    text-decoration: none;
+}
+.banner__boton:hover {
+    color: #ffff;
+}
