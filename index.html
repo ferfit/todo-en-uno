@@ -9,34 +9,109 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap"
+        rel="stylesheet">
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="css/estilos.css">
 
-    <title>Hello, world!</title>
+    <title>Todo En Uno</title>
 </head>
 
 <body>
-    <section class="banner">
-        <div class="container">
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!--                                                              Banner principal                                                                        -->
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <section class="banner position-relative pb-5 ">
+        <div class="container px-5">
 
-            <div class="banner__cont-logo w-100">
-                <img src="imagenes/todoenuno_blanco.png" alt="" class="banner__logo w-25">
+            <div class="banner__cont-logo w-100 d-flex justify-content-center justify-content-sm-start">
+                <img src="imagenes/todoenuno_blanco.png" alt="" class="banner__logo">
             </div>
 
             <div class="banner__cont-principal row">
-                <div class="banner_cont-textos col-12 col-md-6">
-                    <h1 class="banner__titulo text-white">50 % DE DESCUENTO EN TU PROPIA APP PARA TU NEGOCIO</h1>
-                    <h2 class="banner__subtitulo text-white">Y ABONALO HASTA 3 CUOTAS SIN INTERES CON BANCO PROVINCIA</h2>
-                    <a href="" class="banner__boton">Obtene tu beneficio ahora</a>
+                <div
+                    class="banner_cont-textos col-12 col-lg-6 d-flex flex-column justify-content-center justify-content-lg-start">
+                    <h1 class="banner__titulo text-white mb-2 text-center text-lg-start">50 % DE DESCUENTO EN TU PROPIA
+                        APP PARA TU NEGOCIO</h1>
+                    <h2 class="banner__subtitulo text-white mb-4 text-center text-lg-start">Y ABONALO HASTA 3 CUOTAS SIN
+                        INTERES CON BANCO PROVINCIA</h2>
+                    <a href="" class="banner__boton mx-auto mx-lg-0">Obtene tu beneficio ahora</a>
                 </div>
-                <div class="banner__cont-imagen col-12 col-md-6">
-                    <img src="imagenes/banner_imagen.png" alt="" class="banner__imagen w-100">
+                <div class="banner__cont-imagen col-12 col-lg-6 mt-5 mt-lg-0 ">
+                    <img src="imagenes/banner_imagen.png" alt=""
+                        class="banner__imagen position-relative d-block mx-auto">
                 </div>
             </div>
 
-        </div>  
+        </div>
+
+        <div class="banner__circulo circulo position-absolute"></div>
+        <div class="banner__circulo2 position-absolute circulo circulo2"></div>
 
     </section>
+
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!--                                                                     Video                                                                            -->
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <section class="video">
+        <div class="container d-flex justify-content-center align-items-center h-100">
+            <video src="/imagenes/video.mp4" class="video__video" controls class="shadow"></video>
+        </div>
+    </section>
+
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!--                                                                     Union                                                                            -->
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <section class="union pt-5">
+        <div class="container p-5">
+            <h1 class="text-center union__titulo colorBlanco">Nos unimos para ofrecerte una solución al alcance de tu
+                comercio</h1>
+            <div class="row d-flex flex-column justify-content-center align-items-center">
+                <div class="row col-12 ">
+                    <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
+                        <img src="./imagenes/ENTRADAUNO_Mesa de trabajo 1.png" alt="" class="w-75">
+                    </div>
+                    <div class="col-12 col-md-4 d-flex justify-content-center align-items-center mt-5 mt-md-0">
+                        <img src="./imagenes/PAGO UNO_Mesa de trabajo 1.png" alt="" class="w-75">
+                    </div>
+                    <p class="colorBlanco text-center d-md-none mt-3">El sistema de recaudación más robusto y confiable de la industria con el precio más bajo del mercado
+
+                    <div class="col-12 col-md-4 d-flex justify-content-center align-items-center mt-5 mt-md-0">
+                        <img src="./imagenes/LOGO HACELO APP.png" alt="" class="w-75">
+                    </div>
+                    <p class="colorBlanco text-center d-md-none mt-3">MÓVILizando al mundo</p>
+
+
+                </div>
+            </div>
+            <div class="col-12 row mt-3">
+
+                <p class="colorBlanco text-center col-9 d-none d-md-block">El sistema de recaudación más robusto y confiable de la
+                    industria con el precio más bajo del mercado
+
+
+                <p class="colorBlanco col-3 d-none d-md-block">MÓVILizando al mundo</p>
+
+
+            </div>
+        </div>
+        <div class="union__cont-igual d-flex flex-column justify-content-center align-items-center mt-3">
+            <div class="union__linea mb-2"></div>
+            <div class="union__linea"></div>
+        </div>
+
+        <div class="union__cont-logo d-flex justify-content-center align-items-center">
+            <img src="./imagenes/todoenuno_naranja.png" alt="" class="union__logo">
+        </div>
+        </div>
+    </section>
+
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 

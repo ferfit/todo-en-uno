@@ -1,5 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.colorBlanco{
+    color: #e6e7e8;
+}
+
 .banner{
     background-image: linear-gradient(to right, #f15d2c, black);
+    height: auto;
+}
+.banner__logo{
+    width: 70%;
+}
+.banner__titulo{
+    font-size: 40px;
+    font-weight: 700;
+}
+.banner__subtitulo{
+    font-size: 25px;
+    font-weight: 400;
 }
 
 .banner__boton{
@@ -8,7 +35,268 @@
     box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 40%);
     padding: 17px 36px 18px;
     text-decoration: none;
+    margin-top: 15px;
+    font-size: 14px;
+    width: 270px;
+}
+.banner__imagen{
+    z-index: 2;
+    width: 100%;
 }
 .banner__boton:hover {
     color: #ffff;
 }
+.banner__circulo{
+    top: 724px;
+    right: 164px;
+    z-index: 1;
+}
+.banner__circulo2{
+    bottom: 8px;
+    right: 87px;
+    z-index: 1;
+}
+.circulo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 21px solid #f15d2c;
+    opacity: 70%;
+}
+.circulo2{
+    width: 100px;
+    border: 24px solid #f15d2c;
+    height: 100px;
+}
+
+/*----------------------------------------------------------------*/
+/*                            Video                               */
+/*----------------------------------------------------------------*/
+.video{
+    height: 400px;
+    background-image: linear-gradient(0deg, rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(../imagenes/video__fondo.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.video__video{
+    width: 90%;
+}
+
+/*----------------------------------------------------------------*/
+/*                            Union                               */
+/*----------------------------------------------------------------*/
+.union{
+    background-image: linear-gradient(to right, black, #f15d2c);
+}
+
+.union__titulo{
+    margin-bottom: 36px;
+}
+
+.union__linea{
+    width: 50px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.union__logo{
+    width: 75%;
+}
+
+
+
+@media (min-width: 768px) { 
+    
+    .banner__logo{
+        width: 30%;
+    }
+    .banner__titulo{
+        font-size: 40px;
+    }
+    .banner__subtitulo{
+        font-size: 30px;
+    }
+
+    .banner__boton{
+        display: block;
+    }
+    
+    .banner__imagen{
+        z-index: 2;
+        width: 70%;
+    }
+    
+    .banner__circulo{
+        top: 530px;
+        right: 352px;
+        z-index: 1;
+    }
+    .banner__circulo2{
+        bottom: 20px;
+        right: 243px;
+        z-index: 1;
+    }
+    .circulo{
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        border: 30px solid #f15d2c;
+        opacity: 70%;
+    }
+    .circulo2{
+        width: 160px;
+        border: 40px solid #f15d2c;
+        height: 160px;
+    }
+
+    /*----------- Union -----------*/
+    .union__logo{
+        width: 50%;
+        position: relative;
+        top:-50px;
+    }
+ }
+
+
+@media (min-width: 992px) { 
+    .banner{
+        background-image: linear-gradient(to right, #f15d2c, black);
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .banner__logo{
+        width: 20%;
+    }
+    .banner__titulo{
+        font-size: 40px;
+    }
+    .banner__subtitulo{
+        font-size: 30px;
+    }
+
+    .banner__imagen{
+        width: 100%;
+        z-index: 2;
+    }
+
+    .banner__circulo{
+        top: 140px;
+        right: 250px;
+    }
+    .banner__circulo2{
+        bottom: 26px;
+        right: 157px;
+    }
+    .circulo{
+        width: 150px;
+        height: 150px;
+    }
+    .circulo2{
+        width: 170px;
+        height: 170px;
+    }
+
+
+    /*----------video-------------*/
+
+    .video{
+        height: 600px;
+    }
+    
+    .video__video{
+        width: 90%;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+    .banner{
+        background-image: linear-gradient(to right, #f15d2c, black);
+        height: 100vh;
+    }
+
+    .banner__titulo{
+        font-size: 50px;
+    }
+    .banner__subtitulo{
+        font-size: 30px;
+    }
+
+    .banner__circulo{
+        top: 156px;
+        right: 397px;
+    }
+    .banner__circulo2{
+        bottom: 35px;
+        right: 285px;
+    }
+    .circulo{
+        width: 150px;
+        height: 150px;
+    }
+    .circulo2{
+        width: 170px;
+        height: 170px;
+    }
+
+    /*----------video-------------*/
+
+    .video{
+        height: 700px;
+    }
+    
+    .video__video{
+        width: 70%;
+    }
+
+    /*----------- Union -----------*/
+    .union__logo{
+        width: 30%;
+        top:-70px;
+    }
+ }
+
+
+@media (min-width: 1400px) { 
+
+    .banner__logo{
+        width: 15%;
+    }
+    .banner__titulo{
+        font-size: 60px;
+    }
+    .banner__subtitulo{
+        font-size: 36px;
+    }
+
+    .banner__circulo{
+        top: 140px;
+        right: 600px;
+    }
+    .banner__circulo2{
+        bottom: 120px;
+        right: 450px;
+    }
+    .circulo{
+        width: 150px;
+        height: 150px;
+        border: 30px solid #f15d2c;
+
+    }
+    .circulo2{
+        width: 250px;
+        border: 45px solid #f15d2c;
+        height: 250px;
+    }
+
+    /*----------- Union -----------*/
+    .union__logo{
+        width: 20%;
+        top:-70px;
+    }
+
+
+
+    
+ }
