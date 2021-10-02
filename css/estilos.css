@@ -116,6 +116,10 @@ body{
     width: 75%;
 }
 
+.union__slogan{
+    position: relative;
+    top: -70px;
+}
 /*----------------------------------------------------------------*/
 /*                            Porque                              */
 /*----------------------------------------------------------------*/
@@ -194,6 +198,54 @@ body{
     font-weight: 900;
 }
 
+/*----------------------------------------------------------------*/
+/*                            Sorteo                              */
+/*----------------------------------------------------------------*/
+
+.sorteo{
+    background-image: linear-gradient(-90deg, #e6e7e8, white);
+}
+
+.sorteo h1, .sorteo h2 , .sorteo h3{
+    font-size: 30px;
+}
+
+.sorteo h2 {
+    font-weight: 600;
+}
+
+.sorteo h4{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.sorteo__imagen{
+    width: 50%;
+}
+
+.vigencia{
+    background-image: linear-gradient(-90deg, #f15d2c, black);
+}
+
+.vigencia__titulo{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.vigencia__subtitulo{
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.vigencia__boton{
+    background-image: linear-gradient(to right, #f15d2c, #eb8360);
+    text-decoration: none;
+    border-style: none;
+    font-weight: 700;
+    font-size: 14px;
+    box-shadow: 5px 5px 20px 0 rgb(0 0 0 / 40%);
+    padding: 9px 22px;
+}
 
 
 @media (min-width: 768px) { 
@@ -245,6 +297,9 @@ body{
         width: 50%;
         position: relative;
         top:-50px;
+    }
+    .union__slogan{
+        top: -150px;
     }
 
     /*----------- Porque -----------*/
@@ -328,7 +383,7 @@ body{
 
 
 
-    /*----------video-------------*/
+    /*---------- video -------------*/
 
     .video{
         height: 600px;
@@ -336,6 +391,12 @@ body{
     
     .video__video{
         width: 90%;
+    }
+
+    /*---------- Union -------------*/
+
+    .union__slogan{
+        top: -170px;
     }
 
     
@@ -425,7 +486,7 @@ body{
         width: 800px;
     }
 
-    /*----------- Almancen -----------*/
+    /*----------- Alcance -----------*/
 
     .alcance{
         height: 620px;
@@ -434,6 +495,11 @@ body{
 
     .alcance__parrafo{
         font-size: 24px;
+    }
+
+    /*----------- Sorteo -----------*/
+    .sorteo__imagen{
+        width: 20%;
     }
 
  }
