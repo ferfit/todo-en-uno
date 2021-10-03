@@ -247,6 +247,18 @@ body{
     padding: 9px 22px;
 }
 
+/*----------------------------------------------------------------*/
+/*                            Descarga                            */
+/*----------------------------------------------------------------*/
+
+.descarga__titulo, .descarga__subtitulo{
+    font-size: 26px;
+}
+.descarga__logo{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
 
 @media (min-width: 768px) { 
     
