@@ -51,6 +51,12 @@ body{
     font-size: 14px;
     width: 270px;
 }
+
+.banner__banco{
+    margin-top: 15px;
+    height: 56px;
+    width: auto;
+}
 .banner__imagen{
     z-index: 2;
     width: 100%;
@@ -59,7 +65,7 @@ body{
     color: #ffff;
 }
 .banner__circulo{
-    top: 724px;
+    top: 806px;
     right: 164px;
     z-index: 1;
 }
@@ -253,11 +259,10 @@ body{
 
 .descarga__titulo, .descarga__subtitulo{
     font-size: 26px;
+    font-weight: 600;
 }
 .descarga__logo{
-    width: 200px;
-    display: block;
-    margin: auto;
+    width: 250px;
 }
 
 @media (min-width: 768px) { 
@@ -323,13 +328,13 @@ body{
     /*----------- Alcance -----------*/
 
     .alcance{
-        height: 520px;
+        height: 600px;
     }
     
     .alcance__imagen{
         position: relative;
-        bottom: -50px;
-        width: 120%;
+        bottom: -120px;
+        width: 125%;
         right: 50px
     }
 
@@ -501,7 +506,7 @@ body{
     /*----------- Alcance -----------*/
 
     .alcance{
-        height: 620px;
+        height: 670px;
     }
     
 
@@ -510,8 +515,13 @@ body{
     }
 
     /*----------- Sorteo -----------*/
+
     .sorteo__imagen{
         width: 20%;
+    }
+
+    .alcance__imagen{
+        bottom: -40px;
     }
 
  }
