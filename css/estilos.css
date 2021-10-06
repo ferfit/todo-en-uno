@@ -70,8 +70,8 @@ body{
     z-index: 1;
 }
 .banner__circulo2{
-    bottom: 8px;
-    right: 87px;
+    bottom: 35px;
+    right: 110px;
     z-index: 1;
 }
 .circulo{
@@ -162,6 +162,7 @@ body{
 }
 .alcance__imagen{
     width: 100%;
+    bottom: -50px;
 }
 .alcance__titulo{
     font-size: 48px;
@@ -172,6 +173,11 @@ body{
 .alcance__letra-chiquita{
     margin-top: 60px;
     font-size: 14px;
+}
+
+.alcance__circulo{
+    top: 820px;
+    right: 125px;
 }
 
 /*----------------------------------------------------------------*/
@@ -206,6 +212,46 @@ body{
 .sabias h4{
     font-size: 48px;
     font-weight: 900;
+}
+
+/*----------------------------------------------------------------*/
+/*                            Oferta                              */
+/*----------------------------------------------------------------*/
+
+.oferta{
+    background-image: linear-gradient(to right, #f15d2c, black);
+}
+
+.oferta__titulo{
+    font-size: 40px;
+}
+
+.oferta__precioTachado{
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.oferta__precio{
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.oferta p{
+    font-size: 20px;
+}
+
+.oferta__circulo{
+    top: 1056px;
+    right: 202px;
+    z-index: 1;
+}
+
+.circulo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 21px solid #f15d2c;
+    opacity: 70%;
 }
 
 /*----------------------------------------------------------------*/
@@ -268,6 +314,33 @@ body{
 .descarga__logo{
     width: 250px;
 }
+
+/*----------------------------------------------------------------*/
+/*                            Whatsapp                            */
+/*----------------------------------------------------------------*/
+
+.whatsapp{
+    right: 20px;
+    bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.90);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transform: scale(0);
+    transition: all 600ms ease-in-out;
+}
+
+
+
+.whatsapp__icono{
+    font-size: 50px;
+}
+
+.mostrarWhatsapp{
+    transform: scale(1);
+}
+
+
 
 @media (min-width: 768px) { 
     
@@ -351,6 +424,11 @@ body{
         font-size: 14px;
     }
 
+    .alcance__circulo{
+        top: 129px;
+        right: 478px;
+    }
+
     /*----------- Sabias -----------*/
 
     .sabias h1{
@@ -358,6 +436,38 @@ body{
     }
     .sabias p {
         font-size: 30px;
+    }
+
+    .whatsapp{
+        right: 50px;
+        bottom: 50px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+    
+    /*----------- Whatsapp -----------*/
+
+    .whatsapp{
+        width: 90px;
+        height: 90px;
+    }
+
+    .whatsapp__parrafo{
+        right: 160px;
+        bottom: 60px;
+        color: #ffffff;
+        background-color: #f15d2c;
+        font-size: 13px;
+        transform: scale(0);
+        transition: all 600ms ease-in-out;
+    }
+
+    .mostrarConsulta{
+        transform: scale(1);
+    }
+
+    .whatsapp__icono{
+        font-size: 90px;
     }
     
     
@@ -448,6 +558,36 @@ body{
         width: 432px;
     }
 
+    .alcance__circulo {
+        top: 14px;
+        right: 658px;
+    }
+
+    
+
+    /*----------- Oferta -----------*/
+
+    .oferta__titulo{
+        font-size: 40px;
+    }
+    
+    .oferta__precioTachado{
+        font-size: 45px;
+    }
+    
+    .oferta__precio{
+        font-size: 60px;
+    }
+    
+    .oferta p{
+        font-size: 20px;
+    }
+
+    .oferta__circulo{
+        top: 367px;
+        right: 112px;
+    }
+
  }
 
 
@@ -518,6 +658,29 @@ body{
         font-size: 24px;
     }
 
+    .alcance__circulo {
+        top: 53px;
+        right: 861px;
+    }
+
+    /*----------- Oferta -----------*/
+
+    .oferta__titulo{
+        font-size: 40px;
+    }
+    .oferta__precioTachado{
+        font-size: 55px;
+    }
+    
+    .oferta__precio{
+        font-size: 80px;
+    }
+
+    .oferta__circulo{
+        right: 218px;
+    }
+    
+
     /*----------- Sorteo -----------*/
 
     .sorteo__imagen{
@@ -527,6 +690,23 @@ body{
     .alcance__imagen{
         bottom: -40px;
     }
+
+    /*----------- Whatsapp -----------*/
+
+    .whatsapp{
+        width: 70px;
+        height: 70px;
+    }
+    .whatsapp__icono{
+        font-size: 70px;
+    }
+
+    .whatsapp__parrafo{
+        right: 140px;
+        bottom: 50px;
+        font-size: 15px;
+    }
+    
 
  }
 
@@ -577,11 +757,25 @@ body{
         top:-70px;
     }
 
+    /*----------- Alcance -----------*/
+
+    .alcance__circulo {
+        top: 53px;
+        right: 1209px;
+    }
+
     /*----------- Almancen -----------*/
     
     .alcance__imagen{
         width: 90%;
     }
+
+    .oferta__circulo{
+        top: 426px;
+        right: 433px;
+    }
+
+    
 
 
     

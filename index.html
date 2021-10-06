@@ -153,23 +153,25 @@
     <!--                                                                     Alcance                                                                          -->
     <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-    <section class="alcance overflow-hidden">
+    <section class="alcance overflow-hidden position-relative">
         <div class="container py-5">
             <div class="row">
-                <div class="alcance__cont-imagen col-12 col-md-6">
-                    <img src="./imagenes/alcance__imagen.png" alt="" class="alcance__imagen">
+                <div class="alcance__cont-imagen col-12 col-md-6 order-2 order-1">
+                    <img src="./imagenes/alcance__imagen.png" alt="" class="alcance__imagen position-relative">
                 </div>
-                <div class="alcance__cont-textos col-12 col-md-6 p-4">
+                <div class="alcance__cont-textos col-12 col-md-6 p-4 order-1 order-2">
                     <h1 class="alcance__titulo text-white text-center text-md-start">Alcance</h1>
                     <p class="alcance__parrafo colorBlanco mt-3 text-center text-md-start">Con tu propia App bajas los
                         costos de transaccion que otras empresas te cobran. <br> Con Nuestro Sistema TODO en 1 con tan
                         <span class="text-decoration-underline">SOLO 2,75% </span> + IVA (costo por operación 2% + iva +
                         botón de pago incluido en la App 0,75) podrás diferenciarte de tus competidores
-                        mejorando los márgenes y cuidando los precios para tus clientes</p>
+                        mejorando los márgenes y cuidando los precios para tus clientes
+                    </p>
                     <p class="alcance__letra-chiquita colorGrisClaro text-center text-md-start">Más cargos de primas si
                         se opera con tarjeta de credito o débito.</p>
                 </div>
             </div>
+            <div class="alcance__circulo circulo position-absolute"></div>
         </div>
     </section>
 
@@ -186,6 +188,29 @@
             <h2 class="colorNaranja text-center mt-5">SUMATE A LA VANGUARDIA</h2>
             <h3 class="colorNaranja text-center mt-5">SUMATE A LA ​TECNOLOGÍA</h3>
             <h4 class="colorNaranja text-center mt-5">SUMATE AL SIGUIENTE NIVEL</h4>
+        </div>
+    </section>
+
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!--                                                                     Oferta                                                                           -->
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <section class="oferta position-relative">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center mb-5 mb-lg-0">
+                    <h1 class="text-center text-white oferta__titulo">50% DE DESCUENTO Y <br> 3 CUOTAS SIN INTERES</h1>
+                    <h2 class=" colorBlanco oferta__precioTachado text-decoration-line-through mt-4">$10.000</h2>
+                    <h3 class=" colorBlanco oferta__precio mt-4">$5.000</h3>
+                    <p class=" colorBlanco">+ IVA</p>
+                    <P class=" colorBlanco mb-4">OFERTA POR TIEMPO LIMITADO</P>
+                    <a href="" class="banner__boton mx-auto mx-md-2 mx-lg-0">Obtene tu beneficio ahora</a>
+                </div>
+                <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center ">
+                    <img src="./imagenes/oferta__imagen.png" alt="" class="w-100">
+                </div>
+            </div>
+            <div class="oferta__circulo circulo position-absolute"></div>
         </div>
     </section>
 
@@ -246,6 +271,16 @@
             </a>
         </div>
     </section>
+
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!--                                                                     Whatsapp                                                                         -->
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    
+        <p class="colorNaranja bg-dark position-fixed whatsapp__parrafo sombra p-2 d-none d-md-block" id="consulta">CONSULTAS <i class='bx bx-right-arrow-alt'></i></p>
+        <a href="" class="whatsapp position-fixed shadow " id="whatsapp" aria-colspan="d-block">
+            <i class='bx bxl-whatsapp whatsapp__icono colorNaranja'></i>
+        </a>
 
 
     <!-- Optional JavaScript; choose one of the two! -->
