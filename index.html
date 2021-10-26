@@ -3,8 +3,14 @@
 
 <head>
     <!-- Required meta tags -->
+    <title>Todo En Uno</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Fernando Pereyra - Full Stack Developer - Tu Proyecto Web" />
+    <meta name="robots" content="index"/>
+    <meta name="robots" content="follow"/>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -16,11 +22,29 @@
         rel="stylesheet">
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="css/estilos.css">
-
+    <!-- Box icons -->
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="imagenes/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="imagenes/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="imagenes/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="imagenes/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="imagenes/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="imagenes/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="imagenes/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="imagenes/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagenes/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="imagenes/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagenes/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="imagenes/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagenes/favicon-16x16.png">
+    <link rel="manifest" href="imagenes/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="imagenes/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
 
-    <title>Todo En Uno</title>
+
 </head>
 
 <body>
@@ -39,12 +63,15 @@
                     class="banner_cont-textos col-12 col-lg-6 d-flex flex-column justify-content-center justify-content-lg-start">
                     <h1 class="banner__titulo text-white mb-2 text-center text-lg-start">50 % DE DESCUENTO EN TU PROPIA
                         APP PARA TU NEGOCIO</h1>
-                    <h2 class="banner__subtitulo text-white mb-4 text-center text-lg-start">PODES ABONALO HASTA 3 CUOTAS
-                        SIN
-                        INTERES CON BANCO PROVINCIA</h2>
-                    <div class="row justify-content-center justify-content-lg-start">
-                        <a href="" class="banner__boton mx-auto mx-md-2 mx-lg-0">Obtene tu beneficio ahora</a>
-                        <img src="./imagenes/banco_provincia.jpeg" alt="" class="banner__banco sombra p-0 ms-lg-3">
+                    <h2 class="banner__subtitulo text-white text-center text-lg-start mt-4">PODES ABONALO HASTA 3 CUOTAS
+                        SIN INTERÉS (*) CON LAS TARJETAS DE CRÉDITO DE BANCO PROVINCIA </h2>
+                    <a href="" class="text-decoration-none">
+                        <h3 class="text-center text-lg-start text-white banner__terminos"> (*) VER TÉRMINOS Y
+                            CONDICIONES</h3>
+                    </a>
+                    <div class="row justify-content-center justify-content-lg-start mt-3">
+                        <a href="#descarga" class="banner__boton mx-auto mx-md-2 mx-lg-0">Obtene tu beneficio ahora</a>
+                        <img src="./imagenes/banco_provincia.jpg" alt="" class="banner__banco sombra p-0 ms-lg-3">
                     </div>
                 </div>
                 <div class="banner__cont-imagen col-12 col-lg-6 mt-5 mt-lg-0 ">
@@ -55,10 +82,140 @@
 
         </div>
 
-        <div class="banner__circulo circulo position-absolute"></div>
-        <div class="banner__circulo2 position-absolute circulo circulo2"></div>
+    </section>
+
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------->
+    <!--                                                                   Beneficios                                                                         -->
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <section class="beneficios">
+        <div class="container p-5">
+            <h1 class="text-center beneficios__titulo colorNaranja mt-5">Tu comercio en tus manos</h1>
+            <p class="text-center colorGrisOscuro mt-5 beneficios__parrafo p-0">
+                Todo en uno es la primer plataforma que permite la digitalización de tu menú o catalogo, diseñada
+                especialmente para gastronomía, y tiendas de todos los rubros con todas las herramientas, y una
+                personalización total además de una fácil navegación generando una excelente experiencia,
+                permitiendo potenciar tu negocio al máximo.
+            </p>
+
+            <div class="row mt-5">
+
+                <div
+                    class="cont-beneficio d-flex flex-column justify-content-start align-items-center col-12 col-md-6 col-lg-3 my-4">
+                    <img src="./imagenes/ICONO 1.png" alt="" class="w-50">
+                    <h2 class="text-center colorGrisOscuro beneficios__titulo-beneficio mt-3">
+                        ​Totalmente autoadministrable con
+                        actualización en línea
+                    </h2>
+                </div>
+
+                <div
+                    class="cont-beneficio d-flex flex-column justify-content-start align-items-center col-12 col-md-6 col-lg-3 my-4">
+                    <img src="./imagenes/ICONO 2.png" alt="" class="w-50">
+                    <h2 class="text-center colorGrisOscuro beneficios__titulo-beneficio mt-3">
+                        Estética propia, diseño intuitivo logrando una muy buena experiencia
+                    </h2>
+                </div>
+
+                <div
+                    class="cont-beneficio d-flex flex-column justify-content-start align-items-center col-12 col-md-6 col-lg-3 my-4">
+                    <img src="./imagenes/ICONO 3.png" alt="" class="w-50">
+                    <h2 class="text-center colorGrisOscuro beneficios__titulo-beneficio mt-3">
+                        Carrito de Compras sustentable (Recibí tus ordenes a tu mail sin gastar papel)
+                    </h2>
+                </div>
+
+
+                <div
+                    class="cont-beneficio d-flex flex-column justify-content-start align-items-center col-12 col-md-6 col-lg-3 my-4">
+                    <img src="./imagenes/ICONO 4.png" alt="" class="w-50">
+                    <h2 class="text-center colorGrisOscuro beneficios__titulo-beneficio mt-3">
+                        Fácil acceso para tus clientes, desde QR y link exclusivo. Ej.: tu app en Play store
+                    </h2>
+                </div>
+
+                <div
+                    class="cont-beneficio d-flex flex-column justify-content-start align-items-center col-12 col-md-6 col-lg-3 my-4">
+                    <img src="./imagenes/ICONO 5.png" alt="" class="w-50">
+                    <h2 class="text-center colorGrisOscuro beneficios__titulo-beneficio mt-3">
+                        ​Carta Salón / Delivery - Take Away/Tienda (Opcional Sin Costo)
+
+                    </h2>
+                </div>
+
+                <div
+                    class="cont-beneficio d-flex flex-column justify-content-start align-items-center col-12 col-md-6 col-lg-3 my-4">
+                    <img src="./imagenes/ICONO 6.png" alt="" class="w-50">
+                    <h2 class="text-center colorGrisOscuro beneficios__titulo-beneficio mt-3">
+                        Herramientas específicas: Variantes, Adicionales, Extras, Subcategorias, Alérgenos. </h2>
+                </div>
+
+                <div
+                    class="cont-beneficio d-flex flex-column justify-content-start align-items-center col-12 col-md-6 col-lg-3 my-4">
+                    <img src="./imagenes/ICONO 7.png" alt="" class="w-50">
+                    <h2 class="text-center colorGrisOscuro beneficios__titulo-beneficio mt-3">
+                        Multisucursal (Opcional)
+                    </h2>
+                </div>
+
+
+                <div
+                    class="cont-beneficio d-flex flex-column justify-content-start align-items-center col-12 col-md-6 col-lg-3 my-4">
+                    <img src="./imagenes/ICONO 8.png" alt="" class="w-50">
+                    <h2 class="text-center colorGrisOscuro beneficios__titulo-beneficio mt-3">
+                        Costo se servicio solo 2%, abono mensual 0
+                    </h2>
+                </div>
+
+                <div
+                    class="cont-beneficio d-flex flex-column justify-content-start align-items-center col-12 col-md-6 col-lg-3 my-4">
+                    <img src="./imagenes/ICONO 9.png" alt="" class="w-50">
+                    <h2 class="text-center colorGrisOscuro beneficios__titulo-beneficio mt-3">
+                        Podrás compartirla en tus campañas de Redes, Mail o por Whatsapp e integrarlarla a todas las
+                        plataformas: Instagram, Facebook, Google Maps y webs.
+                    </h2>
+                </div>
+
+                <div
+                    class="cont-beneficio d-flex flex-column justify-content-start align-items-center col-12 col-md-6 col-lg-3 my-4">
+                    <img src="./imagenes/ICONO 10.png" alt="" class="w-50">
+                    <h2 class="text-center colorGrisOscuro beneficios__titulo-beneficio mt-3">
+                        Optimización de tiempos de espera, aumentando tus ingresos
+                    </h2>
+                </div>
+
+                <div
+                    class="cont-beneficio d-flex flex-column justify-content-start align-items-center col-12 col-md-6 col-lg-3 my-4">
+                    <img src="./imagenes/ICONO 11.png" alt="" class="w-50">
+                    <h2 class="text-center colorGrisOscuro beneficios__titulo-beneficio mt-3">
+                        Asesoramiento telefónico permanente
+                    </h2>
+                </div>
+
+
+                <div
+                    class="cont-beneficio d-flex flex-column justify-content-start align-items-center col-12 col-md-6 col-lg-3 my-4">
+                    <img src="./imagenes/ICONO 12.png" alt="" class="w-50">
+                    <h2 class="text-center colorGrisOscuro beneficios__titulo-beneficio mt-3">
+                        Carga y diseño inicial a un bajo costo de startup
+                    </h2>
+                </div>
+
+                <div
+                    class="cont-beneficio d-flex flex-column justify-content-start align-items-center col-12 col-md-6 col-lg-3 my-4 mx-auto">
+                    <img src="./imagenes/ICONO 13.png" alt="" class="w-50">
+                    <h2 class="text-center colorGrisOscuro beneficios__titulo-beneficio mt-3">
+                        Adaptado a todas las pantallas: Moviles, tablet,si tu cliente no tiene espacio compartis link de
+                        tu web app sin descargar ninguna aplicación
+                    </h2>
+                </div>
+
+            </div>
+
+        </div>
 
     </section>
+
 
     <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <!--                                                                     Video                                                                            -->
@@ -70,60 +227,6 @@
         </div>
     </section>
 
-    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
-    <!--                                                                     Union                                                                            -->
-    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
-
-    <section class="union pt-5">
-        <div class="container p-5">
-            <h1 class="text-center union__titulo colorBlanco">Nos unimos para ofrecerte una solución al alcance de tu
-                comercio</h1>
-            <div class="row d-flex flex-column justify-content-center align-items-center">
-                <div class="row col-12 ">
-
-                    <div class="col-12 col-md-4 d-flex justify-content-center align-items-center mt-5 mt-md-0">
-                        <img src="./imagenes/PAGO UNO_Mesa de trabajo 1.png" alt="" class="w-75">
-                    </div>
-                    <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
-                        <i class='bx bx-plus d-none d-md-block'></i>
-                    </div>
-                    <p class="colorBlanco text-center d-md-none mt-3">El sistema de recaudación más robusto y confiable
-                        de la industria con el precio más bajo del mercado</p>
-                    <div class="col-12 col-md-4 d-flex justify-content-center d-md-none align-items-center">
-                        <i class='bx bx-plus d-md-none'></i>
-                    </div>
-
-                    <div class="col-12 col-md-4 d-flex justify-content-center align-items-center mt-5 mt-md-0">
-                        <img src="./imagenes/LOGO HACELO APP.png" alt="" class="w-75">
-                    </div>
-                    <p class="colorBlanco text-center d-md-none mt-3">MÓVILizando al mundo</p>
-
-
-                </div>
-            </div>
-            <div class="col-12 row justify-content-between mt-3 mx-0">
-
-                <p class="colorBlanco text-center col-4 d-none d-md-block">El sistema de recaudación más robusto y
-                    confiable de la
-                    industria con el precio más bajo del mercado
-
-
-                <p class="colorBlanco col-4 d-none d-md-block text-center">MÓVILizando al mundo</p>
-
-
-            </div>
-        </div>
-        <div class="union__cont-igual d-flex flex-column justify-content-center align-items-center mt-3">
-            <div class="union__linea mb-2"></div>
-            <div class="union__linea"></div>
-        </div>
-
-        <div class="union__cont-logo d-flex flex-column justify-content-center align-items-center">
-            <img src="./imagenes/todoenuno_naranja.png" alt="" class="union__logo">
-            <p class="union__slogan colorBlanco mt-3">Hacemos más con menos</p>
-        </div>
-        </div>
-    </section>
 
     <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <!--                                                                     Porque                                                                           -->
@@ -144,7 +247,7 @@
                 </ul>
             </div>
             <div class="d-flex justify-content-center">
-                <a href="" class="banner__boton mt-5">Obtene tu beneficio ahora</a>
+                <a href="#descarga" class="banner__boton mt-5">Obtene tu beneficio ahora</a>
             </div>
         </div>
     </section>
@@ -156,22 +259,28 @@
     <section class="alcance overflow-hidden position-relative">
         <div class="container py-5">
             <div class="row">
-                <div class="alcance__cont-imagen col-12 col-md-6 order-2 order-1">
+                <div class="alcance__cont-imagen col-12 col-md-6 order-2 order-md-1 ">
                     <img src="./imagenes/alcance__imagen.png" alt="" class="alcance__imagen position-relative">
                 </div>
-                <div class="alcance__cont-textos col-12 col-md-6 p-4 order-1 order-2">
-                    <h1 class="alcance__titulo text-white text-center text-md-start">Alcance</h1>
+                <div class="alcance__cont-textos col-12 col-md-6 p-4 order-1 order-md-2">
+                    <h1 class="alcance__titulo text-white text-center text-md-start">BAJA LOS COSTOS POR VENTA</h1>
                     <p class="alcance__parrafo colorBlanco mt-3 text-center text-md-start">Con tu propia App bajas los
                         costos de transaccion que otras empresas te cobran. <br> Con Nuestro Sistema TODO en 1 con tan
                         <span class="text-decoration-underline">SOLO 2,75% </span> + IVA (costo por operación 2% + iva +
                         botón de pago incluido en la App 0,75) podrás diferenciarte de tus competidores
                         mejorando los márgenes y cuidando los precios para tus clientes
                     </p>
-                    <p class="alcance__letra-chiquita colorGrisClaro text-center text-md-start">Más cargos de primas si
-                        se opera con tarjeta de credito o débito.</p>
+                    <p class="alcance__letra-chiquita colorGrisClaro text-center text-md-start">Más cargos de Prisma
+                        (**)
+                        si
+                        se opera con tarjeta de crédito o débito.</p>
+                    <a href="" class=" text-decoration-none">
+                        <h2 class="alcance__letra-chiquita colorGrisClaro mt-0 text-center text-md-start">
+                            (**)Ver términos y condiciones
+                        </h2>
+                    </a>
                 </div>
             </div>
-            <div class="alcance__circulo circulo position-absolute"></div>
         </div>
     </section>
 
@@ -199,18 +308,17 @@
         <div class="container py-5">
             <div class="row">
                 <div class="col-12 col-lg-6 d-flex flex-column justify-content-center align-items-center mb-5 mb-lg-0">
-                    <h1 class="text-center text-white oferta__titulo">50% DE DESCUENTO Y <br> 3 CUOTAS SIN INTERES</h1>
+                    <h1 class="text-center text-white oferta__titulo">50% DE DESCUENTO Y <br> 3 CUOTAS SIN INTERÉS</h1>
                     <h2 class=" colorBlanco oferta__precioTachado text-decoration-line-through mt-4">$10.000</h2>
                     <h3 class=" colorBlanco oferta__precio mt-4">$5.000</h3>
                     <p class=" colorBlanco">+ IVA</p>
                     <P class=" colorBlanco mb-4">OFERTA POR TIEMPO LIMITADO</P>
-                    <a href="" class="banner__boton mx-auto mx-md-2 mx-lg-0">Obtene tu beneficio ahora</a>
+                    <a href="#descarga" class="banner__boton mx-auto mx-md-2 mx-lg-0">Obtene tu beneficio ahora</a>
                 </div>
                 <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center ">
                     <img src="./imagenes/oferta__imagen.png" alt="" class="w-100">
                 </div>
             </div>
-            <div class="oferta__circulo circulo position-absolute"></div>
         </div>
     </section>
 
@@ -232,8 +340,11 @@
             </div>
 
             <h4 class="text-center colorNaranja mt-5">DESCAGÁ LA APP Y PARTICIPÁ</h3>
-                <div class="sorteo_cont-imagen d-flex justify-content-center">
-                    <img src="./imagenes/DESCARGAAPP.png" alt="" class="sorteo__imagen">
+                <div class="sorteo_cont-imagen d-flex justify-content-center mt-4">
+                    <a href="https://play.google.com/store/apps/details?id=com.todoenuno.android61434f4769cbc"
+                        class="descarga__link">
+                        <img src="./imagenes/DESCARGAAPP3.png" alt="" class="descarga__logo">
+                    </a>
 
                 </div>
         </div>
@@ -255,18 +366,25 @@
     <!--                                                                     Descarga                                                                         -->
     <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-    <section class="descarga">
+    <section class="descarga" id="descarga">
         <div class="container d-flex flex-column align-items-center py-5">
-            <h1 class="text-center colorNaranja descarga__titulo w-75">VIVI LA EXPERIENCIA, CONOCE COMO LA TECNOLOGÍA
+            <h1 class="text-center colorNaranja mt-5 descarga__titulo-principal">¿COMO OBTENGO MI BENEFICIO Y MI APP?
+            </h1>
+            <p class="text-center colorGrisOscuro mt-5 descarga__parrafo p-3">​Muy fácil, descargá nuestra app "Todo en
+                uno" desde play store, o ingresa a la web app desde tu navegador móvil y rellena el formulario "Quiero
+                mi app" ubicado en la pantalla principal y listo te avisaremos cuando tu app este terminada.​</p>
+            <h1 class="text-center colorNaranja descarga__titulo w-75 mt-5">VIVI LA EXPERIENCIA, CONOCE COMO LA
+                TECNOLOGÍA
                 PODRÍA POTENCIAR TU SERVICIO</h1>
             <p class="text-center colorGrisOscuro m-0 mt-3"> Hace click acá</p>
-            <a href="" class="descarga__link">
+            <a href="https://play.google.com/store/apps/details?id=com.todoenuno.android61434f4769cbc"
+                class="descarga__link">
                 <img src="./imagenes/DESCARGAAPP3.png" alt="" class="descarga__logo">
             </a>
             <h2 class="text-center colorNaranja descarga__subtitulo mt-5 w-75">NO TENES ESPACIO O USAS IPHONE, NO HAY
                 ESCUSAS, ACCEDE DESDE LA WEB APP</h2>
             <p class="text-center colorGrisOscuro m-0 mt-3"> Hace click acá</p>
-            <a href="" class="descarga__link">
+            <a href="https://app.todoenuno.ar/var/apps/browser/index-prod.html#/61434f476a2d6" class="descarga__link">
                 <img src="./imagenes/WEBAPP.png" alt="" class="descarga__logo">
             </a>
         </div>
@@ -276,11 +394,30 @@
     <!--                                                                     Whatsapp                                                                         -->
     <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-    
-        <p class="colorNaranja bg-dark position-fixed whatsapp__parrafo sombra p-2 d-none d-md-block" id="consulta">CONSULTAS <i class='bx bx-right-arrow-alt'></i></p>
-        <a href="" class="whatsapp position-fixed shadow " id="whatsapp" aria-colspan="d-block">
-            <i class='bx bxl-whatsapp whatsapp__icono colorNaranja'></i>
-        </a>
+
+    <p class="colorNaranja bg-dark position-fixed whatsapp__parrafo sombra p-2 d-none d-md-block" id="consulta">
+        CONSULTAS <i class='bx bx-right-arrow-alt'></i></p>
+    <a href="" class="whatsapp position-fixed shadow " id="whatsapp" aria-colspan="d-block">
+        <i class='bx bxl-whatsapp whatsapp__icono colorNaranja'></i>
+    </a>
+
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+    <!--                                                                     Footer                                                                           -->
+    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+    <footer class="footer py-5 ">
+        <p class="text-center text-white">
+            Nos unimos para ofrecerte una solución al alcance de tu comercio
+        </p>
+        <div class=" d-flex flex-row justify-content-center align-items-center">
+            <img src="./imagenes/PAGO UNO_Mesa de trabajo 1.png" alt="" class="col-3 col-xl-1">
+            <i class='bx bx-plus text-white mx-1 mx-md-4'></i>
+            <img src="./imagenes/LOGO HACELO APP.png" alt="" class="col-3 col-xl-1">
+            <i class='bx bx-pause  text-white mx-1 mx-md-4'></i>
+            <img src="./imagenes/todoenuno_naranja.png" alt="" class="col-3 col-xl-1">
+
+        </div>
+    </footer>
 
 
     <!-- Optional JavaScript; choose one of the two! -->

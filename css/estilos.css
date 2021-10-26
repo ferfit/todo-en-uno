@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+:root{
+	scroll-behavior: smooth; 
+}
 
 body{
     font-family: 'Montserrat', sans-serif;
@@ -41,6 +44,10 @@ body{
     font-weight: 400;
 }
 
+.banner__terminos{
+    font-size: 16px;
+}
+
 .banner__boton{
     color: #ffffff;
     background-color: #f15d2c;
@@ -64,27 +71,25 @@ body{
 .banner__boton:hover {
     color: #ffff;
 }
-.banner__circulo{
-    top: 806px;
-    right: 164px;
-    z-index: 1;
+
+/*----------------------------------------------------------------*/
+/*                            Beneficios                          */
+/*----------------------------------------------------------------*/
+
+.beneficios{
+    background-color: #e5e5e5;
 }
-.banner__circulo2{
-    bottom: 35px;
-    right: 110px;
-    z-index: 1;
+.beneficios__titulo{
+    font-size: 36px;
+    font-weight: 600;
 }
-.circulo{
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    border: 21px solid #f15d2c;
-    opacity: 70%;
+.beneficios__parrafo{
+    font-size: 24px;
+    font-weight: 400;
 }
-.circulo2{
-    width: 100px;
-    border: 24px solid #f15d2c;
-    height: 100px;
+
+.beneficios__titulo-beneficio{
+    font-size: 18px;
 }
 
 /*----------------------------------------------------------------*/
@@ -92,7 +97,7 @@ body{
 /*----------------------------------------------------------------*/
 .video{
     height: 400px;
-    background-image: linear-gradient(0deg, rgba(255,255,255,0.7), rgba(255,255,255,0.7)), url(../imagenes/video__fondo.jpg);
+    background-image: linear-gradient(90deg, rgba(214, 207, 205, 0.7), rgba(241,93,44,0.7)), url(../imagenes/video__fondo.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -101,35 +106,7 @@ body{
     width: 90%;
 }
 
-/*----------------------------------------------------------------*/
-/*                            Union                               */
-/*----------------------------------------------------------------*/
-.union{
-    background-image: linear-gradient(to right, black, #f15d2c);
-}
 
-.union__titulo{
-    margin-bottom: 36px;
-}
-
-.union__linea{
-    width: 50px;
-    height: 6px;
-    background-color: #fff;
-    border-radius: 5px;
-}
-.union__logo{
-    width: 75%;
-}
-
-.union__slogan{
-    position: relative;
-    top: -70px;
-}
-.union i {
-    font-size: 60px;
-    color: #fff;
-}
 /*----------------------------------------------------------------*/
 /*                            Porque                              */
 /*----------------------------------------------------------------*/
@@ -165,7 +142,7 @@ body{
     bottom: -50px;
 }
 .alcance__titulo{
-    font-size: 48px;
+    font-size: 30px;
 }
 .alcance__parrafo{
     font-size: 24px;
@@ -175,10 +152,6 @@ body{
     font-size: 14px;
 }
 
-.alcance__circulo{
-    top: 820px;
-    right: 125px;
-}
 
 /*----------------------------------------------------------------*/
 /*                            Sabias                              */
@@ -240,19 +213,7 @@ body{
     font-size: 20px;
 }
 
-.oferta__circulo{
-    top: 1056px;
-    right: 202px;
-    z-index: 1;
-}
 
-.circulo{
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    border: 21px solid #f15d2c;
-    opacity: 70%;
-}
 
 /*----------------------------------------------------------------*/
 /*                            Sorteo                              */
@@ -307,6 +268,15 @@ body{
 /*                            Descarga                            */
 /*----------------------------------------------------------------*/
 
+.descarga__titulo-principal{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.descarga__parrafo{
+    font-size: 24px;
+    font-weight: 400;
+}
 .descarga__titulo, .descarga__subtitulo{
     font-size: 26px;
     font-weight: 600;
@@ -340,6 +310,16 @@ body{
     transform: scale(1);
 }
 
+/*----------------------------------------------------------------*/
+/*                           Footer                               */
+/*----------------------------------------------------------------*/
+
+.footer{
+    background-image: linear-gradient(to left, black, #f15d2c);
+}
+.bx-pause{
+    transform: rotate(90deg);
+}
 
 
 @media (min-width: 768px) { 
@@ -373,28 +353,7 @@ body{
         right: 243px;
         z-index: 1;
     }
-    .circulo{
-        width: 125px;
-        height: 125px;
-        border-radius: 50%;
-        border: 30px solid #f15d2c;
-        opacity: 70%;
-    }
-    .circulo2{
-        width: 160px;
-        border: 40px solid #f15d2c;
-        height: 160px;
-    }
-
-    /*----------- Union -----------*/
-    .union__logo{
-        width: 50%;
-        position: relative;
-        top:-50px;
-    }
-    .union__slogan{
-        top: -150px;
-    }
+   
 
     /*----------- Porque -----------*/
 
@@ -424,11 +383,6 @@ body{
         font-size: 14px;
     }
 
-    .alcance__circulo{
-        top: 129px;
-        right: 478px;
-    }
-
     /*----------- Sabias -----------*/
 
     .sabias h1{
@@ -444,6 +398,15 @@ body{
         background-color: #fff;
         border-radius: 50%;
     }
+
+
+    /*----------- Descargas -----------*/
+
+    .descarga__titulo-principal{
+        font-size: 48px;
+        width: 75%;
+    }
+
     
     /*----------- Whatsapp -----------*/
 
@@ -495,24 +458,6 @@ body{
         z-index: 2;
     }
 
-    .banner__circulo{
-        top: 140px;
-        right: 250px;
-    }
-    .banner__circulo2{
-        bottom: 26px;
-        right: 157px;
-    }
-    .circulo{
-        width: 150px;
-        height: 150px;
-    }
-    .circulo2{
-        width: 170px;
-        height: 170px;
-    }
-
-
 
     /*---------- video -------------*/
 
@@ -524,13 +469,6 @@ body{
         width: 90%;
     }
 
-    /*---------- Union -------------*/
-
-    .union__slogan{
-        top: -170px;
-    }
-
-    
     /*----------- Alcance -----------*/
 
     .alcance{
@@ -543,9 +481,6 @@ body{
         right: 0px;
     }
 
-    .alcance__titulo{
-        margin-top: 30px;
-    }
 
     .alcance__parrafo{
         font-size: 20px;
@@ -557,12 +492,6 @@ body{
         font-size: 14px;
         width: 432px;
     }
-
-    .alcance__circulo {
-        top: 14px;
-        right: 658px;
-    }
-
     
 
     /*----------- Oferta -----------*/
@@ -581,11 +510,6 @@ body{
     
     .oferta p{
         font-size: 20px;
-    }
-
-    .oferta__circulo{
-        top: 367px;
-        right: 112px;
     }
 
  }
@@ -607,23 +531,6 @@ body{
         font-size: 30px;
     }
 
-    .banner__circulo{
-        top: 156px;
-        right: 397px;
-    }
-    .banner__circulo2{
-        bottom: 35px;
-        right: 285px;
-    }
-    .circulo{
-        width: 150px;
-        height: 150px;
-    }
-    .circulo2{
-        width: 170px;
-        height: 170px;
-    }
-
     /*----------video-------------*/
 
     .video{
@@ -632,13 +539,6 @@ body{
     
     .video__video{
         width: 70%;
-    }
-
-    /*----------- Union -----------*/
-
-    .union__logo{
-        width: 30%;
-        top:-70px;
     }
 
     /*----------- Porque -----------*/
@@ -658,11 +558,6 @@ body{
         font-size: 24px;
     }
 
-    .alcance__circulo {
-        top: 53px;
-        right: 861px;
-    }
-
     /*----------- Oferta -----------*/
 
     .oferta__titulo{
@@ -676,10 +571,6 @@ body{
         font-size: 80px;
     }
 
-    .oferta__circulo{
-        right: 218px;
-    }
-    
 
     /*----------- Sorteo -----------*/
 
@@ -727,56 +618,12 @@ body{
         font-size: 36px;
     }
 
-    .banner__circulo{
-        top: 140px;
-        right: 600px;
-    }
-
-    .banner__circulo2{
-        bottom: 120px;
-        right: 450px;
-    }
-
-    .circulo{
-        width: 150px;
-        height: 150px;
-        border: 30px solid #f15d2c;
-
-    }
-
-    .circulo2{
-        width: 250px;
-        border: 45px solid #f15d2c;
-        height: 250px;
-    }
-
-    /*----------- Union -----------*/
-
-    .union__logo{
-        width: 20%;
-        top:-70px;
-    }
-
-    /*----------- Alcance -----------*/
-
-    .alcance__circulo {
-        top: 53px;
-        right: 1209px;
-    }
 
     /*----------- Almancen -----------*/
     
     .alcance__imagen{
         width: 90%;
     }
-
-    .oferta__circulo{
-        top: 426px;
-        right: 433px;
-    }
-
-    
-
 
     
  }

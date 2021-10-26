@@ -11,11 +11,6 @@ document.addEventListener('scroll',function(){
         whatsapp.classList.remove('mostrarWhatsapp');
     }
 
-    if(posicion>3000){
-        consulta.classList.add('mostrarConsulta');
-    } else{
-        consulta.classList.remove('mostrarConsulta');
-    }
 });
 
 
