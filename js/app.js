@@ -13,6 +13,18 @@ document.addEventListener('scroll',function(){
 
 });
 
+//Asigna numero
+var telefono1 = "1166053843";
+var telefono2 = "1166053858";
+
+var num = Math.floor((Math.random() * 2) + 1); 
+
+if(num == 1) {
+    whatsapp.href= `https://api.whatsapp.com/send?phone=549${telefono1}`;
+    
+} else {
+    whatsapp.href= `https://api.whatsapp.com/send?phone=549${telefono2}`;
+}
 
 
 

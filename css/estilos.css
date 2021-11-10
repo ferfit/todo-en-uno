@@ -101,6 +101,9 @@ body{
     background-position: center;
     background-size: cover;
 }
+.video__blanco{
+    background:white;
+}
 
 .video__video{
     width: 90%;
@@ -194,6 +197,8 @@ body{
 .oferta{
     background-image: linear-gradient(to right, #f15d2c, black);
 }
+
+
 
 .oferta__titulo{
     font-size: 40px;
@@ -521,7 +526,7 @@ body{
 
     .banner{
         background-image: linear-gradient(to right, #f15d2c, black);
-        height: 100vh;
+        height: 768px;
     }
 
     .banner__titulo{
@@ -605,6 +610,10 @@ body{
 @media (min-width: 1400px) { 
 
     /*----------Banner-----------*/
+
+    .banner{
+        height: 100vh;
+    }
 
     .banner__logo{
         width: 15%;
