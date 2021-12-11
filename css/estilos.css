@@ -36,7 +36,7 @@ body{
     width: 70%;
 }
 .banner__titulo{
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
 }
 .banner__subtitulo{
@@ -145,7 +145,8 @@ body{
     bottom: -50px;
 }
 .alcance__titulo{
-    font-size: 30px;
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 .alcance__parrafo{
     font-size: 24px;
@@ -287,7 +288,7 @@ body{
     font-weight: 600;
 }
 .descarga__logo{
-    width: 250px;
+    width: 225px;
 }
 
 /*----------------------------------------------------------------*/
@@ -369,7 +370,7 @@ body{
     /*----------- Alcance -----------*/
 
     .alcance{
-        height: 600px;
+        height: 900px;
     }
     
     .alcance__imagen{
@@ -452,10 +453,10 @@ body{
         width: 20%;
     }
     .banner__titulo{
-        font-size: 40px;
+        font-size: 30px;
     }
     .banner__subtitulo{
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .banner__imagen{
@@ -477,7 +478,7 @@ body{
     /*----------- Alcance -----------*/
 
     .alcance{
-        height: 530px;
+        height: 1050px;
     }
     
     .alcance__imagen{
@@ -488,14 +489,14 @@ body{
 
 
     .alcance__parrafo{
-        font-size: 20px;
+        font-size: 22px;
         width: 432px;
+        text-align: justify;
 
     }
     .alcance__letra-chiquita{
-        margin-top: 40px;
+        margin-top: 0;
         font-size: 14px;
-        width: 432px;
     }
     
 
@@ -526,14 +527,14 @@ body{
 
     .banner{
         background-image: linear-gradient(to right, #f15d2c, black);
-        height: 768px;
+        height: 850px;
     }
 
     .banner__titulo{
-        font-size: 50px;
+        font-size: 40px;
     }
     .banner__subtitulo{
-        font-size: 30px;
+        font-size: 25px;
     }
 
     /*----------video-------------*/
@@ -555,12 +556,12 @@ body{
     /*----------- Alcance -----------*/
 
     .alcance{
-        height: 670px;
+        height: 490px;
     }
     
 
     .alcance__parrafo{
-        font-size: 24px;
+        font-size: 18px;
     }
 
     /*----------- Oferta -----------*/
@@ -602,6 +603,13 @@ body{
         bottom: 50px;
         font-size: 15px;
     }
+
+    /*----------- Footer -----------*/
+
+    .footer__icono{
+        margin-top: 50px;
+    }
+
     
 
  }
@@ -620,11 +628,16 @@ body{
     }
 
     .banner__titulo{
-        font-size: 60px;
+        font-size: 45px;
     }
 
     .banner__subtitulo{
-        font-size: 36px;
+        font-size: 30px;
+    }
+
+    /*----------- Descarga -----------*/
+    .descarga__logo{
+        width: 230px;
     }
 
 
@@ -632,6 +645,15 @@ body{
     
     .alcance__imagen{
         width: 90%;
+    }
+    .alcance__letra-chiquita{
+        margin-top: 60px;
+    }
+
+    /*----------- Footer -----------*/
+
+    .footer__icono{
+        margin-top: 72px;
     }
 
     
