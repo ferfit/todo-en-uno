@@ -140,6 +140,10 @@ body{
     background-image: linear-gradient(to right, black, #f15d2c);
     height: auto;
 }
+.alcance--color{
+    background-image: linear-gradient(to left, black, #f15d2c);
+
+}
 .alcance__imagen{
     width: 100%;
     bottom: -50px;
@@ -196,7 +200,7 @@ body{
 /*----------------------------------------------------------------*/
 
 .oferta{
-    background-image: linear-gradient(to right, #f15d2c, black);
+    background-image: linear-gradient(to left, #f15d2c, black);
 }
 
 
@@ -291,6 +295,11 @@ body{
     width: 225px;
 }
 
+.contacto__boton-enviar{
+    background-image: linear-gradient(to left, #f15d2c, black);
+
+}
+
 /*----------------------------------------------------------------*/
 /*                            Whatsapp                            */
 /*----------------------------------------------------------------*/
@@ -325,6 +334,15 @@ body{
 }
 .bx-pause{
     transform: rotate(90deg);
+}
+.footer__icono{
+    margin-top: 30px;
+}
+.footer__logo{
+    width: 80%;
+}
+.footer__titulo-icono{
+    font-size: 12px;
 }
 
 
@@ -438,6 +456,18 @@ body{
     .whatsapp__icono{
         font-size: 90px;
     }
+
+
+    /*-----------Footer------------*/
+    .footer__icono{
+        margin-top: 70px;
+    }
+
+    .footer__titulo-icono{
+        font-size: 16px;
+    }
+
+    
     
     
  }
@@ -516,6 +546,16 @@ body{
     
     .oferta p{
         font-size: 20px;
+    }
+
+    /*---------Footer-----*/
+
+    .footer__potencia{
+        width: 80%;
+    }
+
+    .footer__icono{
+        margin-top: 90px;
     }
 
  }
@@ -607,7 +647,17 @@ body{
     /*----------- Footer -----------*/
 
     .footer__icono{
-        margin-top: 50px;
+        margin-top: 70px;
+    }
+
+    .footer__logo{
+        position: relative;
+        top: -25px;
+        width: 90%;
+    }
+
+    .footer__potencia{
+        width: 60%;
     }
 
     
@@ -653,7 +703,16 @@ body{
     /*----------- Footer -----------*/
 
     .footer__icono{
-        margin-top: 72px;
+        margin-top: 80px;
+    }
+
+    .footer__potencia{
+        width: 45%;
+    }
+
+    .footer__logo{
+        top: -40px;
+        width: 80%;
     }
 
     

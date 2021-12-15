@@ -42,6 +42,13 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="imagenes/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <!-- AOS JS -->
+    <link  rel = " stylesheet " href = " https://unpkg.com/aos@next/dist/aos.css " />
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
 
 
@@ -71,7 +78,7 @@
                         <h3 class="text-center text-lg-start text-white banner__terminos"> (*) VER TÉRMINOS Y
                             CONDICIONES</h3>
                     </a>
-                    <div class="row justify-content-center justify-content-lg-start mt-3">
+                    <div class="row justify-content-center justify-content-lg-start mt-3" >
                         <a href="#descarga" class="banner__boton mx-auto mx-md-2 mx-lg-0">Obtene tu beneficio ahora</a>
                         <img src="./imagenes/banco_provincia.jpg" alt="" class="banner__banco sombra p-0 ms-lg-3">
                     </div>
@@ -102,11 +109,11 @@
                     <h2 class=" colorBlanco oferta__precioTachado text-decoration-line-through mt-4">$12000</h2>
                     <h1 class="text-center text-white oferta__titulo">AHORA</h1>
                     <h3 class=" colorBlanco oferta__precio mt-4">$6000</h3>
-                    <p class=" colorBlanco">IVA INCLUIDO</p>
-                    <P class=" colorBlanco mb-4 text-center">PROMOCIÓN VALIDA HASTA EL 31/12/2021</P>
+                    <p class=" colorBlanco"> <strong>PAGO ÚNICO</strong> - IVA INCLUIDO</p>
+                    <P class=" colorBlanco mb-4 text-center">PROMOCIÓN VÁLIDA HASTA EL 31/12/2021</P>
                     <a href="#descarga" class="banner__boton mx-auto mx-md-2 mx-lg-0">Obtene tu beneficio ahora</a>
                     <p class="colorBlanco text-center mt-3">Si sos cliente del Banco Provincia tenes también 3 cuotas
-                        sin interés. <br> Si aún no sos cliente del banco contactanos y te ayudamos.</p>
+                        sin interés y si aún no lo sos, contáctanos y te ayudamos a serlo.</p>
                 </div>
             </div>
         </div>
@@ -114,23 +121,10 @@
 
 
     <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
-    <!--                                                                     Video                                                                            -->
-    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
-
-    <!-- <section class="video video__blanco">
-        <div class="container d-flex justify-content-center align-items-center h-100">
-            <video src="/imagenes/video.mp4" class="video__video" controls class="shadow"></video>
-        </div>
-    </section> -->
-
-
-
-
-    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <!--                                                                     Alcance                                                                          -->
     <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-    <section class="alcance overflow-hidden position-relative">
+    <section class="alcance alcance--color overflow-hidden position-relative">
         <div class="container py-5">
             <div class="row">
                 <div class="alcance__cont-imagen col-12 col-xl-6 ">
@@ -138,10 +132,10 @@
                     <video src="/imagenes/video.mp4" class="w-100 mb-4" controls class="shadow"></video>
                 </div>
                 <div class="alcance__cont-textos col-12 col-xl-6 ">
-                    <h1 class="alcance__titulo text-white text-center">BAJA LOS COSTOS POR VENTA</h1>
+                    <h1 class="alcance__titulo text-white text-center">BAJÁ LOS COSTOS POR VENTA</h1>
                     <p class="alcance__parrafo colorBlanco w-100 ">
                         Olvidate de las comisiones usureras por venta. Te ofrecemos el
-                        costo por transaccion mas competitivo del mercado.
+                        costo por transacción más competitivo del mercado y la más rápida acreditación de tu dinero.
                         <br><br>
                         Con nuestra plataforma Todo en Uno aumentá tus márgenes de
                         ganancia abonando solamente el 2,75% (*) + iva por cada venta
@@ -175,56 +169,80 @@
             </h1>
             <p class="text-center colorGrisOscuro mt-5 descarga__parrafo p-3">​Muy fácil, <strong>descargá nuestra
                     app</strong> <span class="colorNaranja">"Todo en
-                    uno"</span> desde play store, o <strong>ingresa a la web app</strong> desde tu navegador móvil y
-                <strong>
-                    rellena el formulario "Quiero
-                    mi app" </strong> y listo te avisaremos cuando tu app este terminada.​
+                    uno"</span> desde play store de tu celular Android, o <strong>ingresa a la web app</strong> desde tu navegador o móvil y
+                
+                    rellena el formulario <strong>"Quiero
+                    mi app" </strong> y listo, te avisaremos cuando tu app este terminada.​
             </p>
 
+        </div>
+
+        <div class="row pb-5 justify-content-center align-items-center">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-2 d-flex justify-content-center align-items-center mb-2">
+                <a href="quieromiapp@todoenuno.ar" class="descarga__link">
+                    <img src="./imagenes/email.png" alt="" class="descarga__logo">
+                </a>
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-2 d-flex justify-content-center align-items-center mb-2">
+                <a href="https://api.whatsapp.com/send?phone=5491166053843" class="descarga__link">
+                    <img src="./imagenes/whatsapp.png" alt="" class="descarga__logo">
+                </a>
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-2 d-flex justify-content-center align-items-center mb-2 d-none d-md-flex">
+                <a class="descarga__link">
+                    <img src="./imagenes/TELEFONO.png" alt="" class="descarga__logo">
+                </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-2 d-flex justify-content-center align-items-center mb-2 d-md-none">
+                <a class="descarga__link" href="tel:+54908003452372">
+                    <img src="./imagenes/TELEFONO.png" alt="" class="descarga__logo">
+                </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-2 d-flex justify-content-center align-items-center mb-2">
+                <a href="https://play.google.com/store/apps/details?id=app.todoenuno.android61434f4769cbc"
+                    class="descarga__link">
+                    <img src="./imagenes/DESCARGAAPP3.png" alt="" class="descarga__logo">
+                </a>
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-2 d-flex justify-content-center align-items-center mb-2">
+                <a href="https://app.todoenuno.ar/var/apps/browser/index-prod.html#/61434f476a2d6/form/mobile_view/index/value_id/2487"
+                    class="descarga__link">
+                    <img src="./imagenes/WEBAPP.png" alt="" class="descarga__logo">
+                </a>
+
+            </div>
+        </div>
+
+        <div class="container d-flex flex-column align-items-center pb-5">
+            <p class="text-center  mt-3 colorNaranja descarga__parrafo p-1">​ <strong> ¿Querés saber más?</strong>
 
 
+            <div class="col-12 col-md-6 contacto__cont-formulario p-3 p-md-5 shadow">
+                <p>
+                    Completa con tus datos y nos comunicaremos a la brevedad!
+                </p>
+                <form class="formulario" id="formulario">
 
+                    <input type="text" name="nombre" class="form-control mt-3 shadow" placeholder="Ingrese su nombre" id="nombre">
+                    <input type="email" name="email" class="form-control mt-3 shadow" placeholder="Ingrese su email" id="email">
+                    <input type="text" name="telefono" class="form-control mt-3 shadow"
+                        placeholder="Ingrese su teléfono" id="telefono">
+
+                    <button type="submit"
+                        class="form-control mt-3 p-3 contacto__boton-enviar text-white shadow">ENVIAR</button>
+                </form>
+
+                <div class="respuesta mt-3" id="respuesta">
+                    
+                </div>
+
+            </div>
 
         </div>
-        
-            <div class="row pb-5 justify-content-center align-items-center">
-                <div class="col-12 col-md-6 col-lg-4 col-xl-2 d-flex justify-content-center align-items-center mb-2">
-                    <a href="tel:+5491166053858"
-                        class="descarga__link">
-                        <img src="./imagenes/TELEFONO.png" alt="" class="descarga__logo">
-                    </a>
 
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 col-xl-2 d-flex justify-content-center align-items-center mb-2">
-                    <a href="mailto:econsultas@negociosuno.com"
-                        class="descarga__link">
-                        <img src="./imagenes/email.png" alt="" class="descarga__logo">
-                    </a>
-
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 col-xl-2 d-flex justify-content-center align-items-center mb-2">
-                    <a href="https://api.whatsapp.com/send?phone=5491166053843"
-                        class="descarga__link">
-                        <img src="./imagenes/whatsapp.png" alt="" class="descarga__logo">
-                    </a>
-
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 col-xl-2 d-flex justify-content-center align-items-center mb-2">
-                    <a href="https://play.google.com/store/apps/details?id=app.todoenuno.android61434f4769cbc"
-                        class="descarga__link">
-                        <img src="./imagenes/DESCARGAAPP3.png" alt="" class="descarga__logo">
-                    </a>
-
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 col-xl-2 d-flex justify-content-center align-items-center mb-2">
-                    <a href="https://app.todoenuno.ar/var/apps/browser/index-prod.html#/61434f476a2d6/form/mobile_view/index/value_id/2487"
-                        class="descarga__link">
-                        <img src="./imagenes/WEBAPP.png" alt="" class="descarga__logo">
-                    </a>
-
-                </div>
-            </div>
-        
     </section>
 
     <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
@@ -239,24 +257,6 @@
         <i class='bx bxl-whatsapp whatsapp__icono colorNaranja'></i>
     </a>
 
-    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
-    <!--                                                                     Footer                                                                           -->
-    <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
-
-    <!-- <footer class="footer py-5 ">
-        <p class="text-center text-white">
-            Nos unimos para ofrecerte una solución al alcance de tu comercio
-        </p>
-        <div class=" d-flex flex-row justify-content-center align-items-center">
-            <img src="./imagenes/PAGO UNO_Mesa de trabajo 1.png" alt="" class="col-3 col-xl-1">
-            <i class='bx bx-plus text-white mx-1 mx-md-4'></i>
-            <img src="./imagenes/LOGO HACELO APP.png" alt="" class="col-3 col-xl-1">
-            <i class='bx bx-pause  text-white mx-1 mx-md-4'></i>
-            <img src="./imagenes/todoenuno_naranja.png" alt="" class="col-3 col-xl-1">
-
-        </div>
-    </footer> -->
-
 
     <!-- ---------------------------------------------------------------------------------------------------------------------------------------------------- -->
     <!--                                                                     Footer                                                                           -->
@@ -264,15 +264,16 @@
 
 
     <footer class="footer py-5 ">
-        <p class="text-white w-50 text-center mx-auto">
+        <p class="text-white footer__potencia px-3 px-md-5 text-center mx-auto">
             Potencia tus ventas en la plataforma más rentable del mercado y olvidate de los costos
-            usureros por venta. <br> Con <strong>Todo en Uno</strong> , el negocio lo hacés vos y desde un sólo lugar.
+            usureros por venta. Con <strong>Todo en Uno</strong> , el negocio lo hacés vos y desde un sólo lugar.
 
         </p>
         <div class=" d-flex flex-row justify-content-center align-items-start mt-5">
             <div class="d-flex flex-column justify-content-center col-3 col-xl-2">
                 <img src="./imagenes/tienda_virtual.png" alt="" class="w-50 d-block mx-auto mb-3">
-                <p class="text-center colorBlanco">TIENDA VIRTUAL <br> Exclusiva para tu marca</p>
+                <p class="text-center colorBlanco footer__titulo-icono">TIENDA VIRTUAL</p>
+                <p class="text-center colorBlanco d-none d-md-block"> Exclusiva para tu marca</p>
             </div>
 
             <div class="">
@@ -280,17 +281,21 @@
             </div>
             <div class="d-flex flex-column justify-content-center col-3 col-xl-2">
                 <img src="./imagenes/cart.png" alt="" class="w-50 d-block mx-auto mb-3">
-                <p class="text-center colorBlanco">CARRITO DE COMPRAS <br> Con todos los medios de pagos integrados</p>
+                <p class="text-center colorBlanco footer__titulo-icono">CARRITO DE COMPRAS </p>
+                <p class="text-center colorBlanco d-none d-md-block"> Con todos los medios de pagos integrados</p>
 
             </div>
 
             <i class='bx bx-pause  text-white mx-1 mx-md-4 footer__icono'></i>
             <div class="col-3 col-xl-2">
 
-                <img src="./imagenes/todoenuno_naranja.png" alt="" class="w-50">
+                <img src="./imagenes/todoenuno_naranja.png" alt="" class="footer__logo">
             </div>
 
         </div>
+
+        <hr class="text-white w-25 mx-auto mt-5">    
+        <p class="text-center text-white m-0">todoenUno - Maipu N° 374 2° - C.A.B.A. </p>
     </footer>
 
 
@@ -302,6 +307,12 @@
         crossorigin="anonymous"></script>
     <!-- App js -->
     <script src="js/app.js"></script>
+
+     <!-- AOS JSV -->
+     <script  src = " https://unpkg.com/aos@next/dist/aos.js " > </script> 
+    <script > 
+        AOS . init ( ) ; 
+    </script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

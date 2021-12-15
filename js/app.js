@@ -26,6 +26,71 @@ if(num == 1) {
     whatsapp.href= `https://api.whatsapp.com/send?phone=549${telefono2}`;
 }
 
+//Formulario
 
+var formulario = document.getElementById('formulario');
+var respuesta = document.getElementById('respuesta');
+
+
+formulario.addEventListener('submit',function(e){
+    e.preventDefault();
+    console.log('me hiciste click')
+
+    var datos = new FormData(formulario); /* le pasamos el formulario variable */
+
+    fetch('email.php',{
+        method: 'POST',
+        body: datos
+    })
+    .then(res => res.json())
+    .then(data => {
+        console.log(data)
+        if(data === 'error'){
+            respuesta.innerHTML = `
+            <div class="alert alert-danger mt-3" role="alert" data-aos="fade-opacity" data-aos-offset = "10" data-aos-duration="800">
+               Llena todos los campos
+            </div>
+            `
+            setTimeout(function(){ 
+                respuesta.innerHTML=""; 
+            }, 5000);
+        } else {
+            respuesta.innerHTML = `
+            <div class="alert alert-success mt-3" role="alert" data-aos="fade-opacity" data-aos-offset = "10" data-aos-duration="800">
+                Tu mensaje se ha enviado correctamente.
+            </div>
+            `
+            var nombre = document.getElementById('nombre');
+            var email = document.getElementById('email');
+            var mensaje = document.getElementById('telefono');
+            nombre.value = "";
+            email.value = "";
+            mensaje.value = "";
+
+            setTimeout(function(){ 
+                respuesta.innerHTML=""; 
+            }, 5000);
+        }
+    })
+})
+
+
+
+
+
+
+/* $('#enviar').click(function(e){
+    e.preventDefault();
+    var email = $('#email').val();
+
+    $.ajax ({
+        url: email.php,
+        type: 'POST',
+        data: email,
+    })
+    .done(function(res){
+        $('#respuesta').html(res)
+    })
+});  */
 
 
