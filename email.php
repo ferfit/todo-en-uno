@@ -5,7 +5,7 @@ $email = $_POST['email'];
 $telefono = $_POST['telefono'];
 
 
-$destinatario = 'ferfit16@gmail.com';
+$destinatario = 'quieromiapp@todoenuno.ar';
 $from = 'todoenUno@todoenuno.com';
 
 

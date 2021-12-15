@@ -154,6 +154,7 @@ body{
 }
 .alcance__parrafo{
     font-size: 24px;
+    text-align: center;
 }
 .alcance__letra-chiquita{
     margin-top: 60px;
@@ -388,7 +389,7 @@ body{
     /*----------- Alcance -----------*/
 
     .alcance{
-        height: 900px;
+        height: 950px;
     }
     
     .alcance__imagen{
@@ -400,6 +401,7 @@ body{
 
     .alcance__parrafo{
         font-size: 20px;
+        text-align: justify;
 
     }
     .alcance__letra-chiquita{

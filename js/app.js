@@ -48,7 +48,7 @@ formulario.addEventListener('submit',function(e){
         if(data === 'error'){
             respuesta.innerHTML = `
             <div class="alert alert-danger mt-3" role="alert" data-aos="fade-opacity" data-aos-offset = "10" data-aos-duration="800">
-               Llena todos los campos
+               Debe llenar todos los campos.
             </div>
             `
             setTimeout(function(){ 
