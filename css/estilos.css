@@ -345,6 +345,15 @@ body{
 .footer__titulo-icono{
     font-size: 12px;
 }
+.cont__red{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #f15d2c;
+    color: #fff;
+    border-radius: 50%;
+}
+
 
 
 @media (min-width: 768px) { 
@@ -468,7 +477,7 @@ body{
     .footer__titulo-icono{
         font-size: 16px;
     }
-
+    
     
     
     

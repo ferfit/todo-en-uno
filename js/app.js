@@ -34,7 +34,6 @@ var respuesta = document.getElementById('respuesta');
 
 formulario.addEventListener('submit',function(e){
     e.preventDefault();
-    console.log('me hiciste click')
 
     var datos = new FormData(formulario); /* le pasamos el formulario variable */
 
@@ -74,23 +73,5 @@ formulario.addEventListener('submit',function(e){
     })
 })
 
-
-
-
-
-
-/* $('#enviar').click(function(e){
-    e.preventDefault();
-    var email = $('#email').val();
-
-    $.ajax ({
-        url: email.php,
-        type: 'POST',
-        data: email,
-    })
-    .done(function(res){
-        $('#respuesta').html(res)
-    })
-});  */
 
 
